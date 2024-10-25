@@ -16,7 +16,21 @@ O projeto **Cotação B3** é uma aplicação console em C# que monitora a cota�
 - .NET SDK (versão 6 ou superior)
 - Bibliotecas:
   - Newtonsoft.Json
-- Senha de aplicações gerado pelo próprio Gmail.
+
+## Configuração Inicial
+
+No início do código, as credenciais da aplicação são configuradas da seguinte forma:
+
+```csharp
+Config newConfig = new Config("email@dominio.com", "senha", "apiKey", "passwordGmail");
+```
+
+### Parâmetros:
+
+- `"email@dominio.com"`: O e-mail utilizado para enviar notificações.
+- `"senha"`: A senha do e-mail.
+- `"apiKey"`: A chave da API utilizada para acessar a API da B3.
+- `"passwordGmail"`: Senha do aplicativo Gmail, se necessário.
 
 ## Estrutura do Arquivo JSON
 
