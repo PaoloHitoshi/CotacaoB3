@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CotacaoB3": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\fukus\\OneDrive\\Área de Trabalho\\Ativos\\ativos.json\""
+    }
+  }
+}
