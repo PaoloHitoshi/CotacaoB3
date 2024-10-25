@@ -16,6 +16,8 @@ O projeto **Cotação B3** é uma aplicação console em C# que monitora a cota�
 - .NET SDK (versão 6 ou superior)
 - Bibliotecas:
   - Newtonsoft.Json
+- Ter uma conta no Gmail com autenticação de dois fatores.
+  - Senha de aplicação do Gmail.
 
 ## Configuração Inicial
 
